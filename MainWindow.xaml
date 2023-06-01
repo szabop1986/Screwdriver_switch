@@ -1,0 +1,32 @@
+﻿<Window x:Class="Screwdriver_switch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Screwdriver_switch"
+        mc:Ignorable="d"
+        Title="Screwdriver switch v1.1" Background="WhiteSmoke" Height="400" Width="624" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" Closing="Window_Closing">
+    <Grid Margin="0,15,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="623*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Jelenleg használt csavarozó jig: " HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Height="26" Width="177"/>
+        <Label x:Name="Currently_scanned_jig" Content="Nincs jig scannelve" HorizontalAlignment="Left" Margin="187,20,0,0" VerticalAlignment="Top" Width="285" Height="26" FontWeight="Bold"/>
+        <Label Content="Bescannelt termék típusa:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="26" Width="145"/>
+        <Label x:Name="Scanned_product_type_label" Content="----------" HorizontalAlignment="Left" Margin="187,41,0,0" VerticalAlignment="Top" Width="293" Height="26" FontWeight="Bold"/>
+        <Button x:Name="Change_screwing_jig" Content="Csavarozó jig váltás" HorizontalAlignment="Left" Margin="485,23,0,0" VerticalAlignment="Top" Width="120" Click="Change_screwing_jig_Click" Height="23"/>
+        <Label Content="Serial:" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Height="26" Width="41"/>
+        <TextBox x:Name="Serial_textbox" HorizontalAlignment="Left" Height="23" Margin="60,123,0,0" TextWrapping="Wrap" Text="-----------------" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" KeyDown="Serial_textbox_KeyDown" FontWeight="Bold"/>
+        <Rectangle x:Name="Alert_rectangle" Fill="#FFF4F4F5" Margin="5,151,5,5" Stroke="Black"/>
+        <Label x:Name="Output_of_check_label" Content="---" HorizontalAlignment="Center" Margin="211,187,251,30" VerticalAlignment="Center" Height="123" Width="163" FontWeight="Bold" FontSize="45" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Label Content="Lekapcsolásig hátralévő idő:" HorizontalAlignment="Left" Margin="398,119,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Remaining_time_label" Content="--- [sec]" HorizontalAlignment="Left" Margin="556,119,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Message_to_user_label" HorizontalAlignment="Left" Margin="60,309,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="463"/>
+        <Label Content="MES TNBSC logolás:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="MES_log_checkbox" Content="" HorizontalAlignment="Left" Margin="190,72,0,0" VerticalAlignment="Top" IsChecked="True" Unchecked="MES_log_checkbox_Unchecked"/>
+        <Menu HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="625" Margin="0,-15,0,0" Background="WhiteSmoke">
+            <MenuItem Header="MES history" Click="MenuItem_Click" Background="LightGray"></MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

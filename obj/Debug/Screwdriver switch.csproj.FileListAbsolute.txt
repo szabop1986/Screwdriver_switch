@@ -1,0 +1,23 @@
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\Screwdriver switch.exe.config
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\Screwdriver switch.exe
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\Screwdriver switch.pdb
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.csprojResolveAssemblyReference.cache
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\MainWindow.g.cs
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\App.g.cs
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch_MarkupCompile.cache
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch_MarkupCompile.lref
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\MainWindow.baml
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.g.resources
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver_switch.Properties.Resources.resources
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.csproj.GenerateResource.Cache
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.csproj.CoreCompileInputs.cache
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.exe
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Screwdriver switch.pdb
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MyMESServices.dll
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MyMESServices.pdb
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MyMESServices.dll.config
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Change_screwing_jig.g.cs
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\obj\Debug\Change_screwing_jig.baml
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MES_history_window.exe
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MES_history_window.pdb
+C:\Users\szabop1\source\repos\Company_proj\Screwdriver switch\bin\Debug\MES_history_window.exe.config

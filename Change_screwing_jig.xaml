@@ -1,0 +1,14 @@
+﻿<Window x:Class="Screwdriver_switch.Change_screwing_jig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Screwdriver_switch"
+        mc:Ignorable="d"
+        Title="Csavarozó jig váltása" Height="155.741" Width="396.398" Loaded="Window_Loaded" Closed="Window_Closed" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Scanneld be a használni kívánt csavarozó jig -et:" VerticalAlignment="Top" Height="56" Width="368" FontSize="20" Margin="10,0,0,0"/>
+        <PasswordBox x:Name="JIG_ID_Textbox" HorizontalAlignment="Left" Margin="17,73,0,0" VerticalAlignment="Top" Height="32" Width="340" KeyDown="JIG_ID_Textbox_KeyDown" Loaded="JIG_ID_Textbox_Loaded"/>
+
+    </Grid>
+</Window>
